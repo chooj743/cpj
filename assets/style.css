@@ -1,0 +1,186 @@
+html, body{
+  padding:0;
+  margin: 0;
+
+  overflow-x: hidden;
+  cursor: crosshair;
+  font-size: 70%;
+  background-color: rgb(249,191,178);
+}
+
+@font-face {
+    font-family:"Argent";
+    src:url("../fonts/ArgentPixelCF-Regular.woff2") format("woff2"),url("../fonts/ArgentPixelCF-Regular.woff") format("woff"),url("../fonts/ArgentPixelCF-Regular.otf") format("opentype");
+    font-style:normal;
+    font-weight:400;
+}
+
+@font-face {
+    font-family:"Argent";
+    src:url("../fonts/ArgentPixelCF-Italic.woff2") format("woff2"),url("../fonts/ArgentPixelCF-Italic.woff") format("woff"),url("../fonts/ArgentPixelCF-Italic.otf") format("opentype");
+    font-style: italic;
+    font-weight:400;
+}
+
+a {
+  color: rgb(79,79,79);
+  text-decoration: none;
+}
+
+a:active {
+  color: red;
+  text-decoration: underline;
+}
+
+a:hover {
+  color:  rgb(255,255,255,0.8); 
+}
+
+.sides {
+  position:fixed;
+  margin: 0;
+  top: 0;
+  left: 0;
+
+  width: 20vw;
+  height: 100vh;
+  border-right: 1.5px solid rgb(66,49,36);
+  z-index: 100;
+
+  font-family: "Argent";
+  font-size: 2.2rem;
+}
+
+#jodi{
+  position: fixed;
+  margin: 0;
+  top:3vh;
+  left: 3vw;
+}
+
+#info{
+  position: fixed;
+  margin: 0;
+  bottom:3vh;
+  left: 3vw;
+}
+
+.content {
+  position:absolute;
+  bottom:0;
+  left: 20vw;
+
+  width: 80vw;
+  height: 100vh;
+  z-index: 100;
+}
+
+#pagi{
+  position: absolute;
+  margin: 0;
+  bottom:3vh;
+  right: 3vw;
+
+  color: rgb(79,79,79);
+  font-size: 10rem;
+  text-align: right;
+}
+
+a img { 
+  display: none; 
+}
+
+a:hover img { 
+  width: 40%;
+  display: block; 
+}
+
+
+/*ice*/
+
+
+
+
+
+
+
+
+/*studio*/
+.columns{
+  position: absolute;
+
+
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.blocks{
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  width: 100vw;
+  
+  font-family: "Argent";
+  color: rgb(79,79,79);
+  font-size: 2.5rem;
+}
+
+#w1{
+  padding: 2vh;
+  border-bottom: 1.5px solid rgb(66,49,36);
+}
+
+#w2{
+  padding: 2vh;
+  border-bottom: 1.5px solid rgb(66,49,36);
+}
+
+#w3{
+  padding: 2vh;
+  border-bottom: 1.5px solid rgb(66,49,36);
+}
+
+#w4{
+  padding: 2vh;
+  border-bottom: 1.5px solid rgb(66,49,36);
+}
+
+#w5{
+  padding: 2vh;
+  border-bottom: 1.5px solid rgb(66,49,36);
+}
+
+#w6{
+  padding: 2vh;
+  border-bottom: 1.5px solid rgb(66,49,36);
+}
+
+/*#col1{
+  width: 20vw;
+}
+
+#col2{
+  width: 80vw;
+}
+
+#gridA{
+  padding: 1vw;
+  font-family: "Helvetica", san serif;
+  color: rgb(79,79,79);
+  font-size: 1.6rem;
+  line-height: 3rem;
+}
+
+#gridB{
+  padding: 1vw;
+  width: 55vw;
+
+  font-family: "Helvetica", san serif;
+  color: rgb(79,79,79);
+  font-size: 2.5rem;
+  line-height: 3rem;
+}*/
+
+/*dissertation*/
+
