@@ -5,6 +5,7 @@ html, body{
   overflow-x: hidden;
   cursor: crosshair;
   font-size: 70%;
+  color: rgb(79,79,79);
   background-color: rgb(249,191,178);
 }
 
@@ -22,13 +23,19 @@ html, body{
     font-weight:400;
 }
 
+h1{
+  font-family: helvetica;
+  font-size: 2rem;
+}
+
+
 a {
   color: rgb(79,79,79);
   text-decoration: none;
 }
 
 a:active {
-  color: red;
+  color: blue;
   text-decoration: underline;
 }
 
@@ -81,7 +88,6 @@ a:hover {
   bottom:3vh;
   right: 3vw;
 
-  color: rgb(79,79,79);
   font-size: 10rem;
   text-align: right;
 }
@@ -95,6 +101,9 @@ a:hover img {
   display: block; 
 }
 
+u{
+
+}
 
 /*ice*/
 
