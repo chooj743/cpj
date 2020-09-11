@@ -106,42 +106,63 @@ a:hover img {
 
 
 /*studio*/
-/*.columns{
-  position: absolute;
-
-
-  width: 100vw;
-  height: 100vh;
-}*/
-
-
 .collapsible {
-  background-color: #777;
-  color: white;
+  padding: 2%;
+  width: 100vw;
+  background-color: transparent;
+
+  font-family: "Argent";
+  font-size: 2.2rem;
+  color: rgb(79,79,79);
   cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
+
+  border:none;
   text-align: left;
   outline: none;
 }
 
 .active, .collapsible:hover {
-  background-color: red;
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+.active, .collapsible {
+  background-color: transparent;
+  border-bottom: 1.5px solid rgb(66,49,36);
 }
 
 .tab {
-  padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: green;
+  background-color: transparent;
+  padding-bottom: 3vh;
+  border-bottom: 1.5px solid rgb(66,49,36);
 }
 
-/*#col1{
+.single{
+  padding: 2%;
+  width: 60vw;
+  font-family: "Helvetica", san serif;
+  color: rgb(79,79,79);
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+
+div.a {
+  padding-left: 5vh;
+}
+
+.tab a{
+  cursor: ne-resize;
+  text-decoration: underline;
+}
+
+
+/*#double1{
   width: 20vw;
 }
 
-#col2{
+#double2{
   width: 80vw;
 }
 
