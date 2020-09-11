@@ -33,13 +33,21 @@ l{
   text-decoration: underline;
 }
 
+.breaker{
+  margin: 0;
+  left: 0;
+  width: 100vw;
+  padding-top: 2vh;
+  padding-bottom: 2vw;
+  border-bottom: 1.5px dotted rgb(66,49,36);
+}
+
 a {
   color: rgb(79,79,79);
   text-decoration: none;
 }
 
 a:active {
-  color: blue;
   text-decoration: underline;
 }
 
@@ -95,7 +103,7 @@ a:hover {
   font-size: 10rem;
   text-align: right;
 }
-
+/*
 a img { 
   display: none; 
 }
@@ -103,7 +111,7 @@ a img {
 a:hover img { 
   width: 40%;
   display: block; 
-}
+}*/
 
 
 
@@ -166,6 +174,7 @@ div.a {
   cursor: ne-resize;
   text-decoration: dotted underline;
 }
+
 
 
 /*#double1{
