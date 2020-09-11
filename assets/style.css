@@ -179,8 +179,12 @@ a:hover img {
   line-height: 3rem;
 }
 
-div.a {
-  padding-left: 5vh;
+.a {
+  padding-left: 2.5vw;
+}
+
+.b {
+  padding-left: 1.5vw;
 }
 
 .tab a{
