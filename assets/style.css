@@ -106,54 +106,35 @@ a:hover img {
 
 
 /*studio*/
-.columns{
+/*.columns{
   position: absolute;
 
 
   width: 100vw;
   height: 100vh;
+}*/
+
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
 }
 
-
-.blocks{
-  display: inline-block;
-  position: relative;
-  vertical-align: middle;
-  width: 100vw;
-  
-  font-family: "Argent";
-  color: rgb(79,79,79);
-  font-size: 2.5rem;
+.active, .collapsible:hover {
+  background-color: red;
 }
 
-#w1{
-  padding: 2vh;
-  border-bottom: 1.5px solid rgb(66,49,36);
-}
-
-#w2{
-  padding: 2vh;
-  border-bottom: 1.5px solid rgb(66,49,36);
-}
-
-#w3{
-  padding: 2vh;
-  border-bottom: 1.5px solid rgb(66,49,36);
-}
-
-#w4{
-  padding: 2vh;
-  border-bottom: 1.5px solid rgb(66,49,36);
-}
-
-#w5{
-  padding: 2vh;
-  border-bottom: 1.5px solid rgb(66,49,36);
-}
-
-#w6{
-  padding: 2vh;
-  border-bottom: 1.5px solid rgb(66,49,36);
+.tab {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: green;
 }
 
 /*#col1{
