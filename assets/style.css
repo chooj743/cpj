@@ -114,18 +114,6 @@ a:hover {
   color: rgb(79,79,79);
 }
 
-/*
-a img { 
-  display: none; 
-}
-
-a:hover img { 
-  width: 40%;
-  display: block; 
-}*/
-
-
-
 /*ice*/
 
 
@@ -192,6 +180,43 @@ a:hover img {
   text-decoration: dotted underline;
 }
 
+    /*hover over text popup*/
+      .tooltip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1.5px dotted rgb(79,79,79);
+      }
+
+      .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 25vw;
+        background-color: rgb(255, 255, 255);
+        color: rgb(79,79,79);
+        text-align: center;
+        border-radius: 6px;
+        padding: 3px 0;
+        position: absolute;
+        z-index: 1;
+        bottom: 125%;
+        left: -10%;
+        margin-left: -60px;
+      }
+
+      .tooltip .tooltiptext::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: rgb(255, 255, 255) transparent transparent transparent;
+      }
+
+      .tooltip:hover .tooltiptext {
+        visibility: visible;
+      }
+
 
 
 /*#double1{
@@ -219,6 +244,9 @@ a:hover img {
   font-size: 2.5rem;
   line-height: 3rem;
 }*/
+
+
+
 
 /*dissertation*/
 
