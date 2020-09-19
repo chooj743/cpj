@@ -33,6 +33,10 @@ l{
   text-decoration: underline;
 }
 
+ll{
+  text-decoration: dotted underline;
+}
+
 cap{
   padding-left: 2%;
   text-align: center;
@@ -95,6 +99,11 @@ a:hover {
   margin: 0;
   bottom:3vh;
   left: 3vw;
+}
+
+.legend{
+  font-size: 1.5rem;
+  line-height: 2.2rem;
 }
 
 .content {
