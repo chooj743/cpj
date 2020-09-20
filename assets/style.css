@@ -136,10 +136,6 @@ a:hover {
   flex-wrap: wrap;
 }
 
-
-
-
-
 /*studio*/
 .collapsible {
   padding: 2%;
@@ -234,35 +230,6 @@ a:hover {
       .tooltip:hover .tooltiptext {
         visibility: visible;
       }
-
-
-
-/*#double1{
-  width: 20vw;
-}
-
-#double2{
-  width: 80vw;
-}
-
-#gridA{
-  padding: 1vw;
-  font-family: "Helvetica", san serif;
-  color: rgb(79,79,79);
-  font-size: 1.6rem;
-  line-height: 3rem;
-}
-
-#gridB{
-  padding: 1vw;
-  width: 55vw;
-
-  font-family: "Helvetica", san serif;
-  color: rgb(79,79,79);
-  font-size: 2.5rem;
-  line-height: 3rem;
-}*/
-
 
 
 
