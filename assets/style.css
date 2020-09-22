@@ -236,53 +236,39 @@ a:hover {
 
 
 /*ICE*/
-
 table {
   width: 100%;
-  height: 50%;
   box-sizing: border-box;
-  box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.1);
   border-spacing: 0;
   background-color: #FBFBFB;
 }
 
 th, td {
-  border: 1.5px dotted rgb(66,49,36);
-  box-sizing: border-box;
+  border: 0.1px dotted rgb(66,49,36);
 }
 
 th {
   text-transform: uppercase;
   font-size:15px;
-  font-weight:700;
-  padding: 10px 0;
   color: #7b7b7b;
   background-color: #FBFBFB;
-  letter-spacing: 1px;
 }
 
 td {
-  width: 10%;
-  transition: all 0.3s;
-  font-size: 14px;
-  color: #7b7b7b;
-  font-weight: 400;
-  font-size: 14px;
-  padding: 1.5% 1.5% 5%;
-  vertical-align: initial;
-  padding: 1.5% 0 ;
-  height: 50vh;
   position: relative;
+  width: 14.285%;
+  vertical-align: initial;
+
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+
+  font-size: 1.4rem;
+  line-height: 1.8rem;
 }
 
 .day:hover {
   background-color: rgba(0,0,0,0.1);
-  cursor:pointer;
-}
-
-.today {
-  color: #614E42;
-  background-color: rgba(0,0,0,.25) !important;
 }
 
 .nextmonth {
@@ -295,16 +281,10 @@ td {
   background-color: rgba(0,0,0,.20) !important;
 }
 
-span.number {
-  margin-left: 10%;
-}
-
-span.event { 
+/*span.event { 
   height: 8px; 
   background-color: rgba(0,0,0,.3); 
   display: block; 
-  margin: 10px 10%; 
-  border-radius: 5px; 
   background-color: #BF4E42;
 }
 
@@ -323,70 +303,42 @@ span.event-multiday-finish {
 
 span.event-ghost {
   background-color:transparent;
-}
+}*/
 
 
 /*<--task-->*/
-
 .todo {
   display: block;
-/*  top:5px;*/
-/*  left: 0;*/
-/*  margin-top: 0;
-  margin-left:0;*/
-/*  position: absolute;*/
-  margin-top:10%;
-  height: 30%;
-  width: 100%;
+  width: 98.5%;
   background-color: #ffeac3;
-  z-index: 1;
   border-left: 3px solid orange;
 }
 
 .dotexto{
-  margin: 0;
-  padding: 0;
-  padding-top: 5%;
-  padding-left: 10%;
+  padding-left: 5%;
   color: orange;
 }
 
 .todo2 {
   display: block;
-  margin-top:10%;
-  height: 30%;
-  width: 100%;
+  width: 98.5%;
   background-color: #cef7c9;
-  z-index: 1;
   border-left: 3px solid #2C8E39;
 }
 
 .dotextg{
-  margin: 0;
-  padding: 0;
-  padding-top: 5%;
-  padding-left: 10%;
+  padding-left: 5%;
   color: #2C8E39;
 }
 
 .todo3 {
   display: block;
-  margin-top:10%;
-  height: 30%;
-  width: 100%;
+  width: 98.5%;
   background-color: #fbcfca;
-  z-index: 1;
   border-left: 3px solid #BF4E42;
 }
 
 .dotextr{
-  margin: 0;
-  padding: 0;
-  padding-top: 5%;
-  padding-left: 10%;
+  padding-left: 5%;
   color: #BF4E42;
-}
-
-.time{
-  color: grey;
 }
