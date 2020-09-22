@@ -50,11 +50,9 @@ mark{
 }
 
 .breaker{
-  margin: 0;
-  left: 0;
   width: 100vw;
-  padding-top: 2vh;
-  padding-bottom: 2vw;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
   border-bottom: 1.5px dotted rgb(66,49,36);
 }
 
@@ -108,6 +106,7 @@ a:hover {
 
 .content {
   position:absolute;
+  display: inline-flex;
   bottom:0;
   left: 20vw;
 
@@ -131,7 +130,7 @@ a:hover {
 }
 
 /*ice*/
-.photos{
+.img{
   display: inline-flex;
   flex-wrap: wrap;
 }
@@ -194,44 +193,200 @@ a:hover {
   text-decoration: dotted underline;
 }
 
-    /*hover over text popup*/
-      .tooltip {
-        position: relative;
-        display: inline-block;
-        border-bottom: 1.5px dotted rgb(79,79,79);
-      }
-
-      .tooltip .tooltiptext {
-        visibility: hidden;
-        width: 25vw;
-        background-color: rgb(255, 255, 255);
-        color: rgb(79,79,79);
-        text-align: center;
-        border-radius: 6px;
-        padding: 3px 0;
-        position: absolute;
-        z-index: 1;
-        bottom: 125%;
-        left: -10%;
-        margin-left: -60px;
-      }
-
-      .tooltip .tooltiptext::after {
-        content: "";
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        margin-left: -5px;
-        border-width: 5px;
-        border-style: solid;
-        border-color: rgb(255, 255, 255) transparent transparent transparent;
-      }
-
-      .tooltip:hover .tooltiptext {
-        visibility: visible;
-      }
-
-
-
 /*dissertation*/
+.contentDUO h1{
+  font-family: helvetica;
+  font-weight: medium;
+  font-size: 1.8rem;
+}
 
+.contentDUO {
+  display: inline-flex;
+  width: 75vw;
+
+  font-family: "Helvetica", san serif;
+  color: rgb(79,79,79);
+  font-size: 1.6rem;
+  line-height: 2.7rem;
+}
+
+.duoA{
+  width: 30%;
+  padding: 2%;
+  border-right: 1.5px dotted rgb(66,49,36);
+}
+
+.duoB{
+  width: 30%;
+  padding: 2%;
+  border-right: 1.5px dotted rgb(66,49,36);
+}
+
+.extra{
+  width: 30%;
+  padding: 2%;
+}
+
+.citecut{
+  padding-top: 1%;
+  padding-bottom: 8%;
+  border-bottom: 1.5px dotted rgb(66,49,36);
+}
+
+
+
+/*ICE*/
+
+table {
+  width: 100%;
+  height: 50%;
+  box-sizing: border-box;
+  box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.1);
+  border-spacing: 0;
+  background-color: #FBFBFB;
+}
+
+th, td {
+  border: 1.5px dotted rgb(66,49,36);
+  box-sizing: border-box;
+}
+
+th {
+  text-transform: uppercase;
+  font-size:15px;
+  font-weight:700;
+  padding: 10px 0;
+  color: #7b7b7b;
+  background-color: #FBFBFB;
+  letter-spacing: 1px;
+}
+
+td {
+  width: 10%;
+  transition: all 0.3s;
+  font-size: 14px;
+  color: #7b7b7b;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 1.5% 1.5% 5%;
+  vertical-align: initial;
+  padding: 1.5% 0 ;
+  height: 50vh;
+  position: relative;
+}
+
+.day:hover {
+  background-color: rgba(0,0,0,0.1);
+  cursor:pointer;
+}
+
+.today {
+  color: #614E42;
+  background-color: rgba(0,0,0,.25) !important;
+}
+
+.nextmonth {
+  color: #9c9c9c;
+  background-color: #EBEBEB;
+}
+
+.nextmonth:hover {
+  color: #7b7b7b;
+  background-color: rgba(0,0,0,.20) !important;
+}
+
+span.number {
+  margin-left: 10%;
+}
+
+span.event { 
+  height: 8px; 
+  background-color: rgba(0,0,0,.3); 
+  display: block; 
+  margin: 10px 10%; 
+  border-radius: 5px; 
+  background-color: #BF4E42;
+}
+
+span.event-multiday {
+  margin: 10px -2px;
+  border-radius: 0;
+}
+
+span.event-multiday-start {
+  margin-right: -4px;
+}
+
+span.event-multiday-finish {
+  margin-left: -4px; 
+}
+
+span.event-ghost {
+  background-color:transparent;
+}
+
+
+/*<--task-->*/
+
+.todo {
+  display: block;
+/*  top:5px;*/
+/*  left: 0;*/
+/*  margin-top: 0;
+  margin-left:0;*/
+/*  position: absolute;*/
+  margin-top:10%;
+  height: 30%;
+  width: 100%;
+  background-color: #ffeac3;
+  z-index: 1;
+  border-left: 3px solid orange;
+}
+
+.dotexto{
+  margin: 0;
+  padding: 0;
+  padding-top: 5%;
+  padding-left: 10%;
+  color: orange;
+}
+
+.todo2 {
+  display: block;
+  margin-top:10%;
+  height: 30%;
+  width: 100%;
+  background-color: #cef7c9;
+  z-index: 1;
+  border-left: 3px solid #2C8E39;
+}
+
+.dotextg{
+  margin: 0;
+  padding: 0;
+  padding-top: 5%;
+  padding-left: 10%;
+  color: #2C8E39;
+}
+
+.todo3 {
+  display: block;
+  margin-top:10%;
+  height: 30%;
+  width: 100%;
+  background-color: #fbcfca;
+  z-index: 1;
+  border-left: 3px solid #BF4E42;
+}
+
+.dotextr{
+  margin: 0;
+  padding: 0;
+  padding-top: 5%;
+  padding-left: 10%;
+  color: #BF4E42;
+}
+
+.time{
+  color: grey;
+}
