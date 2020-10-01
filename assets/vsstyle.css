@@ -2,11 +2,12 @@ html, body{
   padding:0;
   margin: 0;
 
+  box-sizing:border-box;
   overflow-x: hidden;
   cursor: crosshair;
   font-size: 70%;
   color: rgb(79,79,79);
-  background-color: rgb(249,191,178);
+  background-color: rgb(231,229,223);
 }
 
 @font-face {
@@ -195,13 +196,13 @@ a:hover {
 }
 
 /*dissertation*/
-.contentTRI h1{
+.contentDUO h1{
   font-family: helvetica;
   font-weight: medium;
   font-size: 1.8rem;
 }
 
-.contentTRI {
+.contentDUO {
   display: inline-flex;
   width: 75vw;
 
@@ -211,21 +212,18 @@ a:hover {
   line-height: 2.7rem;
 }
 
-.triA{
+.duoA{
   width: 30%;
   padding: 2%;
   border-right: 1.5px dotted rgb(66,49,36);
+  background-color: red;
 }
 
-.triB{
+.duoB{
   width: 30%;
   padding: 2%;
   border-right: 1.5px dotted rgb(66,49,36);
-}
-
-.triC{
-  width: 30%;
-  padding: 2%;
+  background-color: blue;
 }
 
 .citecut{
@@ -233,3 +231,5 @@ a:hover {
   padding-bottom: 8%;
   border-bottom: 1.5px dotted rgb(66,49,36);
 }
+
+
