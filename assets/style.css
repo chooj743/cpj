@@ -200,41 +200,97 @@ a:hover {
 }
 
 /*dissertation*/
-.contentTRI h1{
-  font-family: helvetica;
-  font-weight: medium;
-  font-size: 1.8rem;
-}
+    .contentTRI h1{
+      font-family: helvetica;
+      font-weight: medium;
+      font-size: 1.8rem;
+    }
 
-.contentTRI {
-  display: inline-flex;
-  width: 75vw;
+    .contentTRI {
+      display: inline-flex;
+      width: 75vw;
 
-  font-family: "Helvetica", san serif;
-  color: rgb(79,79,79);
-  font-size: 1.6rem;
-  line-height: 2.7rem;
-}
+      font-family: "Helvetica", san serif;
+      color: rgb(79,79,79);
+      font-size: 1.6rem;
+      line-height: 2.7rem;
+    }
 
-.triA{
-  width: 30%;
-  padding: 2%;
-  border-right: 1.5px dotted rgb(66,49,36);
-}
+    .triA{
+      width: 30%;
+      padding: 2%;
+      border-right: 1.5px dotted rgb(66,49,36);
+    }
 
-.triB{
-  width: 30%;
-  padding: 2%;
-  border-right: 1.5px dotted rgb(66,49,36);
-}
+    .triB{
+      width: 30%;
+      padding: 2%;
+      border-right: 1.5px dotted rgb(66,49,36);
+    }
 
-.triC{
-  width: 30%;
-  padding: 2%;
-}
+    .triC{
+      width: 30%;
+      padding: 2%;
+    }
 
-.citecut{
-  padding-top: 1%;
-  padding-bottom: 8%;
-  border-bottom: 1.5px dotted rgb(66,49,36);
-}
+    .citecut{
+      padding-top: 1%;
+      padding-bottom: 8%;
+      border-bottom: 1.5px dotted rgb(66,49,36);
+    }
+
+
+
+
+    .with-tooltip {
+    position: relative;
+    cursor: inherit;
+    /*text-decoration: wavy underline rgb(230, 230 ,230);*/
+    background-color: rgba(205, 212, 234, 0.6);
+    }
+
+    .with-tooltip:hover .tooltip {
+      transform: translateY(0);
+      top: -8px;
+      opacity: 1;
+      transition: opacity 0.2s, top 0.2s;
+    }
+    .tooltip {
+      position: absolute;
+      top: -18px;
+      right: 5px;
+      width: 10px;
+      height: 10px;
+      opacity: 0;
+      padding: 0;
+      margin: 0;
+      background: none;
+      transform: translateY(-10000px);
+      transition: opacity 0.2s, top 0.2s, transform 0s linear 0.3s;
+    }
+    .tooltip:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: -5px;
+      width: 100%;
+      height: 100%;
+      background: rgb(182,186,200);
+      transform: rotate(45deg);
+    }
+    .tooltip-body {
+      position: absolute;
+      bottom: 10px;
+      left: -100px;
+
+      height: auto;
+      width: 25vw;
+
+      background: rgb(182,186,200);
+      color: rgb(79, 79, 79);
+      font-size: 14px;
+      padding: 5px 10px;
+      overflow: hidden;
+      text-shadow: none;
+    }
+
