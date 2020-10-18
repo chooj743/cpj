@@ -2,7 +2,6 @@ html, body{
   padding:0;
   margin: 0;
 
-  box-sizing:border-box;
   overflow-x: hidden;
   cursor: crosshair;
   font-size: 70%;
@@ -45,6 +44,11 @@ cap{
   font-size: 1.4rem;
 }
 
+note{
+  font-family: Courier;
+  color: rgba(244,244,246);
+}
+
 mark{
   color: rgb(79,79,79);
   background-color: rgb(255,255,0,0.4);
@@ -67,7 +71,7 @@ a:active {
 }
 
 a:hover {
-  color:  rgb(255,255,255,0.8);
+  color:  rgb(224,171,160);
   text-decoration: dotted underline;
 }
 
@@ -154,7 +158,7 @@ a:hover {
 }
 
 .active, .collapsible:hover {
-  color: white;
+  color: rgb(224,171,160);
   text-decoration: underline;
   background-color: transparent;
 }
@@ -196,40 +200,77 @@ a:hover {
 }
 
 /*dissertation*/
-.contentDUO h1{
-  font-family: helvetica;
-  font-weight: medium;
-  font-size: 1.8rem;
-}
+    .contentTRI h1{
+      font-family: helvetica;
+      font-weight: medium;
+      font-size: 1.8rem;
+    }
 
-.contentDUO {
-  display: inline-flex;
-  width: 75vw;
+    .contentTRI {
+      display: inline-flex;
+      width: 75vw;
 
-  font-family: "Helvetica", san serif;
-  color: rgb(79,79,79);
-  font-size: 1.6rem;
-  line-height: 2.7rem;
-}
+      font-family: "Helvetica", san serif;
+      color: rgb(79,79,79);
+      font-size: 1.6rem;
+      line-height: 2.7rem;
+    }
 
-.duoA{
-  width: 30%;
-  padding: 2%;
-  border-right: 1.5px dotted rgb(66,49,36);
-  background-color: red;
-}
+    .triA{
+      width: 30%;
+      padding: 2%;
+      border-right: 1.5px dotted rgb(66,49,36);
+    }
 
-.duoB{
-  width: 30%;
-  padding: 2%;
-  border-right: 1.5px dotted rgb(66,49,36);
-  background-color: blue;
-}
+    .triB{
+      width: 30%;
+      padding: 2%;
+      border-right: 1.5px dotted rgb(66,49,36);
+    }
 
-.citecut{
-  padding-top: 1%;
-  padding-bottom: 8%;
-  border-bottom: 1.5px dotted rgb(66,49,36);
-}
+    .triC{
+      width: 30%;
+      padding: 2%;
+    }
+
+    .citecut{
+      padding-top: 1%;
+      padding-bottom: 8%;
+      border-bottom: 1.5px dotted rgb(66,49,36);
+    }
+
+
+
+    .contentDUO h1{
+      font-family: helvetica;
+      font-weight: medium;
+      font-size: 1.8rem;
+    }
+
+    .contentDUO {
+      display: inline-flex;
+      width: 75vw;
+
+      font-family: "Helvetica", san serif;
+      color: rgb(79,79,79);
+      font-size: 1.6rem;
+      line-height: 2.7rem;
+    }
+
+    .duoA{
+      width: 55%;
+      padding: 2%;
+      border-right: 1.5px dotted rgb(66,49,36);
+    }
+
+    .duoB{
+      width: 45%;
+      padding: 2%;
+    }
+
+
+
+
+
 
 
