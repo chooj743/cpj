@@ -194,6 +194,10 @@ a:hover {
   padding-left: 1.5vw;
 }
 
+.c {
+  padding-left: 5.5vw;
+}
+
 .tab a{
   cursor: ne-resize;
   text-decoration: dotted underline;
